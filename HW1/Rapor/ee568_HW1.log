@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  5 MAR 2020 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  8 MAR 2020 20:38
 entering extended mode
 **./ee568_HW1.tex
 (ee568_HW1.tex
@@ -509,60 +509,162 @@ File: E:/Github/EE568/HW1/Rapor/Figurler/initial.png Graphic file (type png)
 <use E:/Github/EE568/HW1/Rapor/Figurler/initial.png>
 Package pdftex.def Info: E:/Github/EE568/HW1/Rapor/Figurler/initial.png  used o
 n input line 67.
-(pdftex.def)             Requested size: 241.49895pt x 266.82405pt.
+(pdftex.def)             Requested size: 345.0pt x 381.19562pt.
 
-[2 <E:/Github/EE568/HW1/Rapor/Figurler/initial.png>]
-<E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png, id=23, 421.575pt x 316.1812
+[2] [3 <E:/Github/EE568/HW1/Rapor/Figurler/initial.png>]
+<E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png, id=28, 421.575pt x 316.1812
 4pt>
 File: E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png Graphic file (type png)
 
 <use E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png>
 Package pdftex.def Info: E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png  use
 d on input line 139.
-(pdftex.def)             Requested size: 241.49895pt x 181.12737pt.
-<E:/Github/EE568/HW1/Rapor/Figurler/inductance.png, id=24, 421.575pt x 316.1812
+(pdftex.def)             Requested size: 345.0pt x 258.75406pt.
+<E:/Github/EE568/HW1/Rapor/Figurler/inductance.png, id=29, 421.575pt x 316.1812
 4pt>
 File: E:/Github/EE568/HW1/Rapor/Figurler/inductance.png Graphic file (type png)
 
 <use E:/Github/EE568/HW1/Rapor/Figurler/inductance.png>
 Package pdftex.def Info: E:/Github/EE568/HW1/Rapor/Figurler/inductance.png  use
 d on input line 145.
-(pdftex.def)             Requested size: 241.49895pt x 181.12737pt.
- [3] [4 <E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png (PNG copy)> <E:/Gith
-ub/EE568/HW1/Rapor/Figurler/inductance.png (PNG copy)>]
-<E:/Github/EE568/HW1/Rapor/Figurler/torque.png, id=36, 421.575pt x 316.18124pt>
+(pdftex.def)             Requested size: 345.0pt x 258.75406pt.
+ [4] [5 <E:/Github/EE568/HW1/Rapor/Figurler/reluctance.png (PNG copy)>]
+<E:/Github/EE568/HW1/Rapor/Figurler/torque.png, id=39, 421.575pt x 316.18124pt>
 
 File: E:/Github/EE568/HW1/Rapor/Figurler/torque.png Graphic file (type png)
 <use E:/Github/EE568/HW1/Rapor/Figurler/torque.png>
 Package pdftex.def Info: E:/Github/EE568/HW1/Rapor/Figurler/torque.png  used on
  input line 172.
-(pdftex.def)             Requested size: 241.49895pt x 181.12737pt.
- [5 <E:/Github/EE568/HW1/Rapor/Figurler/torque.png (PNG copy)>] [6] (ee568_HW1.
-aux) ) 
+(pdftex.def)             Requested size: 345.0pt x 258.75406pt.
+ [6 <E:/Github/EE568/HW1/Rapor/Figurler/inductance.png (PNG copy)>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 183.
+<E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear.png, id=44, 533.74406pt 
+x 465.23813pt>
+File: E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear.png Graphic file (t
+ype png)
+<use E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear.png>
+Package pdftex.def Info: E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear.
+png  used on input line 187.
+(pdftex.def)             Requested size: 345.0pt x 300.72585pt.
+ [7 <E:/Github/EE568/HW1/Rapor/Figurler/torque.png (PNG copy)>]
+<Figurler/Q2/45degrees_linear.png, id=48, 539.01375pt x 463.7325pt>
+File: Figurler/Q2/45degrees_linear.png Graphic file (type png)
+<use Figurler/Q2/45degrees_linear.png>
+Package pdftex.def Info: Figurler/Q2/45degrees_linear.png  used on input line 1
+94.
+(pdftex.def)             Requested size: 345.0pt x 296.81609pt.
+ [8 <E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear.png>]
+<Figurler/Q2/90degrees_linear.png, id=54, 541.27219pt x 469.00218pt>
+File: Figurler/Q2/90degrees_linear.png Graphic file (type png)
+<use Figurler/Q2/90degrees_linear.png>
+Package pdftex.def Info: Figurler/Q2/90degrees_linear.png  used on input line 2
+02.
+(pdftex.def)             Requested size: 345.0pt x 298.94379pt.
+ [9 <./Figurler/Q2/45degrees_linear.png>]
+<Figurler/Q2/degrees_inductance.png, id=59, 1078.78032pt x 529.98pt>
+File: Figurler/Q2/degrees_inductance.png Graphic file (type png)
+<use Figurler/Q2/degrees_inductance.png>
+Package pdftex.def Info: Figurler/Q2/degrees_inductance.png  used on input line
+ 211.
+(pdftex.def)             Requested size: 345.0pt x 169.49193pt.
+ [10 <./Figurler/Q2/90degrees_linear.png>]
+<Figurler/Q2/total_energy.png, id=64, 1080.28593pt x 529.22719pt>
+File: Figurler/Q2/total_energy.png Graphic file (type png)
+<use Figurler/Q2/total_energy.png>
+Package pdftex.def Info: Figurler/Q2/total_energy.png  used on input line 218.
+(pdftex.def)             Requested size: 345.0pt x 169.00891pt.
+<Figurler/Q2/degrees_torque.png, id=65, 1078.78032pt x 528.47438pt>
+File: Figurler/Q2/degrees_torque.png Graphic file (type png)
+<use Figurler/Q2/degrees_torque.png>
+Package pdftex.def Info: Figurler/Q2/degrees_torque.png  used on input line 227
+.
+(pdftex.def)             Requested size: 345.0pt x 169.01042pt.
+ [11 <./Figurler/Q2/degrees_inductance.png> <./Figurler/Q2/total_energy.png>]
+<Figurler/Q3/B_H.png, id=71, 1233.10687pt x 591.71063pt>
+File: Figurler/Q3/B_H.png Graphic file (type png)
+<use Figurler/Q3/B_H.png>
+Package pdftex.def Info: Figurler/Q3/B_H.png  used on input line 238.
+(pdftex.def)             Requested size: 345.0pt x 165.5424pt.
+<Figurler/Q3/zerodeg.png, id=72, 490.83376pt x 425.33907pt>
+File: Figurler/Q3/zerodeg.png Graphic file (type png)
+<use Figurler/Q3/zerodeg.png>
+Package pdftex.def Info: Figurler/Q3/zerodeg.png  used on input line 248.
+(pdftex.def)             Requested size: 345.0pt x 298.97491pt.
+ [12 <./Figurler/Q2/degrees_torque.png> <./Figurler/Q3/B_H.png>]
+<Figurler/Q3/45deg.png, id=79, 474.27188pt x 399.74344pt>
+File: Figurler/Q3/45deg.png Graphic file (type png)
+<use Figurler/Q3/45deg.png>
+Package pdftex.def Info: Figurler/Q3/45deg.png  used on input line 255.
+(pdftex.def)             Requested size: 345.0pt x 290.79774pt.
+<Figurler/Q3/90deg.png, id=80, 487.8225pt x 423.83344pt>
+File: Figurler/Q3/90deg.png Graphic file (type png)
+<use Figurler/Q3/90deg.png>
+Package pdftex.def Info: Figurler/Q3/90deg.png  used on input line 261.
+(pdftex.def)             Requested size: 345.0pt x 299.74681pt.
+
+[13 <./Figurler/Q3/zerodeg.png>] [14 <./Figurler/Q3/45deg.png>]
+<Figurler/Q3/inductance.png, id=89, 1077.27469pt x 526.96875pt>
+File: Figurler/Q3/inductance.png Graphic file (type png)
+<use Figurler/Q3/inductance.png>
+Package pdftex.def Info: Figurler/Q3/inductance.png  used on input line 271.
+(pdftex.def)             Requested size: 345.0pt x 168.76208pt.
+ [15 <./Figurler/Q3/90deg.png>]
+<Figurler/Q3/stored_energy.png, id=94, 1079.53313pt x 525.46312pt>
+File: Figurler/Q3/stored_energy.png Graphic file (type png)
+<use Figurler/Q3/stored_energy.png>
+Package pdftex.def Info: Figurler/Q3/stored_energy.png  used on input line 278.
+
+(pdftex.def)             Requested size: 345.0pt x 167.92712pt.
+<Figurler/Q3/torque.png, id=95, 1078.78032pt x 528.47438pt>
+File: Figurler/Q3/torque.png Graphic file (type png)
+<use Figurler/Q3/torque.png>
+Package pdftex.def Info: Figurler/Q3/torque.png  used on input line 288.
+(pdftex.def)             Requested size: 345.0pt x 169.01042pt.
+ [16 <./Figurler/Q3/inductance.png> <./Figurler/Q3/stored_energy.png>]
+<Figurler/Q4/negative_torque.png, id=101, 1073.51062pt x 526.21594pt>
+File: Figurler/Q4/negative_torque.png Graphic file (type png)
+<use Figurler/Q4/negative_torque.png>
+Package pdftex.def Info: Figurler/Q4/negative_torque.png  used on input line 29
+9.
+(pdftex.def)             Requested size: 345.0pt x 169.10715pt.
+ [17 <./Figurler/Q3/torque.png>]
+<Figurler/Q4/abstorque.png, id=106, 1075.01625pt x 526.21594pt>
+File: Figurler/Q4/abstorque.png Graphic file (type png)
+<use Figurler/Q4/abstorque.png>
+Package pdftex.def Info: Figurler/Q4/abstorque.png  used on input line 306.
+(pdftex.def)             Requested size: 345.0pt x 168.8743pt.
+ [18 <./Figurler/Q4/negative_torque.png> <./Figurler/Q4/abstorque.png>] [19] (e
+e568_HW1.aux) ) 
 Here is how much of TeX's memory you used:
- 14992 strings out of 492450
- 303267 string characters out of 3120472
- 339009 words of memory out of 3000000
- 19309 multiletter control sequences out of 15000+200000
- 535563 words of font info for 36 fonts, out of 3000000 for 9000
+ 15155 strings out of 492450
+ 307336 string characters out of 3120472
+ 339153 words of memory out of 3000000
+ 19446 multiletter control sequences out of 15000+200000
+ 539413 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,67p,819b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/user/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/user/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/user/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
-sers/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5
-.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/user/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ee568_HW1.pdf (7 pages, 499424 bytes).
+ 44i,12n,67p,830b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/user/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/user/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/user/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
+rs/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr5.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/user/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/user/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on ee568_HW1.pdf (20 pages, 1039507 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

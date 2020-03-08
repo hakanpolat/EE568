@@ -64,7 +64,7 @@ In order to derive an analitical formula for the reluctance and inductance some 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/initial}
+	\includegraphics[width=1\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/initial}
 	\caption{Initial rotor position set as $\theta=0 $}degrees
 	\label{fig:initial}
 \end{figure}
@@ -136,13 +136,13 @@ Similarly a piecewise function of total inductance is presented in (\ref{inducta
 It is important to state that both inductance and reluctance functions are periodic. In Fig. \ref{fig:reluctanceanalitic} and Fig. \ref{fig:inductanceanalitic} a single period of reluctance and inductance are presented respectively.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/reluctance}
+	\includegraphics[width=1\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/reluctance}
 	\caption{Variation of Reluctance with Rotation of Rotor}
 	\label{fig:reluctanceanalitic}
 \end{figure}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/inductance}
+	\includegraphics[width=1\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/inductance}
 	\caption{Variation of Inductance with Rotation of Rotor}
 	\label{fig:inductanceanalitic}
 \end{figure}
@@ -169,7 +169,7 @@ Hence the piecewise torque generation can be written as in Table \ref{torquetabl
 \end{table}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/torque}
+	\includegraphics[width=1\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/torque}
 	\caption{Variation of Torque with Rotation of Rotor}
 	\label{fig:torqueanalitic}
 \end{figure}
@@ -178,11 +178,141 @@ Hence the piecewise torque generation can be written as in Table \ref{torquetabl
 The initial assumptions can be modified in order to achieve a better analitic approximation. The first change can be made to core permeability. In reluctance machines laminated steel is often the chosen material for its low cost and low core loss due to reduction of eddy losses. Iron has a relative permeability around 4000. This changes the total reluctance and hence changes the inductance and torque. A second approximation is on the flux path. Similar to current passing from minimum resistance, flux also tends to pass from loops with minimum reluctance. Hence normally the flux path is not distributed homogenously in the core but tends to concentrate close to the inner surface of the core material. 
 
 \section{FEA Modelling(2D- Linear Materials)}
+This section consists of three parts. In the first part the flux line distribution of the machine will be presented for \ang{0},\ang{45} and \ang{90} for a linear core material. Then the inductance and the stored energy of the system will be presented. Finally the torque generation for angle variation will be delivered.
+
+\subsection{Flux Line Distibution for \ang{0},\ang{45} and \ang{90}}
+The flux line distribution of the rotor for \ang{0},\ang{45} and \ang{90} of rotation are presented in Fig. \ref{fig:5degreeslinear}, \ref{fig:45degreeslinear} and \ref{fig:90degreeslinear} respectively.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{E:/Github/EE568/HW1/Rapor/Figurler/Q2/5degrees_linear}
+	\caption{Variation of Inductance with Rotation of Rotor}
+	\label{fig:5degreeslinear}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q2/45degrees_linear}
+	\caption{Flux line distribution for \ang{45} rotation of the rotor.}
+	\label{fig:45degreeslinear}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q2/90degrees_linear}
+	\caption{Flux line distribution for \ang{90} rotation of the rotor.}
+	\label{fig:90degreeslinear}
+\end{figure}
+\subsection{Inductance and Total Stored Energy}
+The inductance and the total stored energy calculations are presented in Fig. \ref{fig:degreesinductance} and Fig. \ref{fig:totalenergy} respectively. The total energy are calculated using both BxH and $0.5LI^2$ formulas and for linear systems these two calculations are the expected to be the same. The results in Fig. \ref{fig:totalenergy} clearly proves this hypothesis since there is a perfect overlap in the waveforms.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q2/degrees_inductance}
+	\caption{}
+	\label{fig:degreesinductance}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q2/total_energy}
+	\caption{}
+	\label{fig:totalenergy}
+\end{figure}
+
+\subsection{Torque Generation}
+The torque generation for different rotor angles are presented in Fig. \ref{fig:degreestorque}. The peak points are at 60~Nm. According to our analytical calculations the torque generation should be 71~Nm. The difference is due to fringing and leakage inductance.  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q2/degrees_torque}
+	\caption{Torque generation for different rotor angles.}
+	\label{fig:degreestorque}
+\end{figure}
+
 
 \section{FEA Modelling(2D- Non-Linear Materials)}
+In this section the procedure in previous section will be repeated. As for non-linear material ChinaSteel 35CS250H1 was selected. It's B-H curve is presented in Fig. \ref{fig:bh}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/B_H}
+	\caption{B-H Curve of ChinaSteel 35CS250H1. }
+	\label{fig:bh}
+\end{figure}
+
+\subsection{Flux Line Distibution for \ang{0},\ang{45} and \ang{90}}
+The flux line distribution for \ang{0},\ang{45} and \ang{90} are given in Fig. \ref{fig:zerodeg},\ref{fig:45deg} and \ref{fig:90deg} respectively.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/zerodeg}
+	\caption{Non-linear material zero degrees.}
+	\label{fig:zerodeg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/45deg}
+	\caption{Non-linear material 45 degrees.}
+	\label{fig:45deg}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/90deg}
+	\caption{Non-linear material 90 degrees.}
+	\label{fig:90deg}
+\end{figure}
+
+
+\subsection{Inductance and Total Stored Energy}
+The inductance and system energy variation vs rotor angle are given in Fig. \ref{fig:inductance_nonlinear} and \ref{fig:storedenergy1} respectively. Since the system is non-linear the energy and the co-energy are the system are not equal to each other. Since $0.5LI^2$ gives us the co-energy the waveforms are different than eachother.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/inductance}
+	\caption{Variation of inductance vs rotor angle.}
+	\label{fig:inductance_nonlinear}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/stored_energy}
+	\caption{Total stored energy.}
+	\label{fig:storedenergy1}
+\end{figure}
+
+
+\subsection{Torque Generation}
+The torque generation of the system with non-linear core material is presented in Fig. \ref{fig:torquenonlinear}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q3/torque}
+	\caption{Torque generation}
+	\label{fig:torquenonlinear}
+\end{figure}
+
+\section{Control Method}
+From Q2 and Q3 it is clear that the machine generated positive torque between zero to 90 degrees. Then the machine generates torque in the opposite direction between 90 to 180 degrees. However, this is valid for constant DC excitation. With a DC excitation it is not possible to generate rotation motion. If constant stator current is applied the rotor will oscillate and will try to align itself with the core where it has minimum reluctance.\\
+To generated a rotation motion the direction of the current can be altered. By applying negative current the direction of the torque changes. Hence by applying a square wave a positive torque can be generated. In order to show proof of concept, the direction of applied current was reversed. The generated negative torque is presented in Fig. \ref{fig:negativetorque}. Assuming that current direction can be changed at $T=0Nm$ points the torque in Fig. \ref{fig:abstorque} can be generated.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q4/negative_torque}
+	\caption{Torque generation for reverse polarity current.}
+	\label{fig:negativetorque}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figurler/Q4/abstorque}
+	\caption{Torque generated using proposed control method.}
+	\label{fig:abstorque}
+\end{figure}
+
+\section{Bonus: Motion Animation}
+The motion animation can be found on Github repository.
 
 \section{Conclusion}
 
-asdadasdas
+In this report, fundamental concepts governing variable reluctance machines were observed. The effects of neglecting fringing flux and saturation on the analytical derivation of reluctance, inductance and torque were analyzed. In linear case where the rotor and the stator are fully aligned, the maximum flux density in the core was about 1.5~T. Therefore changing the material from linear to non-linear didnot present significant changes due to the fact that selected material has a high saturation point arond 1.7~T. The analytically calculated inductances and the results overlaps with 10\% error due to neglecting core material permeability and the fringing flux. The analitically calculated torque was 71~Nm and the peak torque found in 2D linear magnetostatic solution is 68~Nm which results in 4\% error.
 
 \end{document}

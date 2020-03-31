@@ -142,9 +142,25 @@ In Fig. \ref{fig:22p24svoltage} the vectors for phase-a are present. There is 15
 	\label{fig:22p24svoltage}
 \end{figure}
 
- Buraya winding factor hesaplaması gelecek.\\
+Distribution factor can be calculated as the vectoral sum of voltage vectors 23, 12, 1 and 14. Then the $k_d$ can be calculated as in Eq. \ref{eq:kd2022}
+\begin{equation}
+k_d=\frac{3.82}{4}=0.956
+\label{eq:kd2022}
+\end{equation}
+The pitch factor can be calculated as in Eq. \ref{eq:kp2022}.
 
-Then another fractional slot design is made for 20 pole. As for slot number 24 is selected. The electrical angle between two neighour slots is given in Eq. \ref{eq:188}.
+\begin{equation}
+k_p=sin(165/2)=0.991
+\label{eq:kp2022}
+\end{equation}
+The winding factor can be calculated as Eq. \ref{eq:kw2022}.
+
+\begin{equation}
+k_w=k_pxk_d= 0.991x0.956=0.947
+\label{eq:kw2022}
+\end{equation}
+
+Then another fractional slot design is made for 20 pole. As for slot number 24 is selected. The electrical angle between two neighbour slots is given in Eq. \ref{eq:188}.
 
 \begin{equation}
 Angle=\frac{360}{24}\frac{20}{2}=150
@@ -175,9 +191,39 @@ The voltage vectors are given in Fig. \ref{fig:voltagefrac}.
 	\caption{Voltage vector in the selected fractional-slot winding.}
 	\label{fig:voltagefrac}
 \end{figure}
- Buraya harmonic incelemsi gelecek.
+
+For a single phase slots 1, 13, 8 and 20 forms the A phase. Hence the distribution factor can be calculated as in Eq. \ref{eq:kdfalan}.
+
+\begin{equation}
+	k_d=\frac{2*2cos(15)}{4}=0.965
+	\label{eq:kdfalan}
+\end{equation}
+ If A+ is wound on slot number 1, A- can be connected to slot 2. Hence the pitch factor is given in Eq.\ref{eq:kpfalan}
  
+ \begin{equation}
+ k_p=sin(150/2)=0.965
+ \label{eq:kpfalan}
+ \end{equation}
+  Which results in a winding factor given in Eq. \ref{eq:kwfalan}
+  
+   \begin{equation}
+  k_w=kpxkd=0.965*0.965=0.933
+  \label{eq:kwfalan}
+  \end{equation}
+  
+ For the third harmonic the winding factor can be calculated as in Eq.\ref{eq:kw3falan}. 
  
+    \begin{equation}
+  k_w=kpxkd=\frac{sin(3q\alpha/2)}{qsin(3\alpha/2)}sin(3\lambda/2)=0.707x -0.707=-0.5
+  \label{eq:kw3falan}
+  \end{equation}
+  For the fifth harmonic the winding factor can be calculated as in Eq. \ref{eq:kw5falan}.
+  
+  \begin{equation}
+  k_w=kpxkd=\frac{sin(5q\alpha/2)}{qsin(5\alpha/2)}sin(3\lambda/2)=-0.707x 0.258=0.183 
+  \label{eq:kw5falan}
+  \end{equation}
+  
  \section{2D FEA of 20 Pole 24 Slot PMSM}
  
  

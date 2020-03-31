@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Introduction}{2}%
+\contentsline {section}{\numberline {2}Integral-Slot Winding Design}{2}%
+\contentsline {section}{\numberline {3}Fractional-Slot Winding Design}{3}%
+\contentsline {section}{\numberline {4}2D FEA of 20 Pole 24 Slot PMSM}{5}%

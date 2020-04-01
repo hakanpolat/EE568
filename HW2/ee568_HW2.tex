@@ -247,10 +247,48 @@ For a single phase slots 1, 13, 8 and 20 forms the A phase. Hence the distributi
   \label{eq:kw5falan}
   \end{equation}
   
+  
+  
+  
  \section{2D FEA of 20 Pole 24 Slot PMSM}
  
- 
+ The geometry of a 20 pole 224 slot machine is given in Fig. \ref{fig:feageom}.
  
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figurler/FEAgeom}
+	\caption{Motor Geometry}
+	\label{fig:feageom}
+\end{figure}
+
+During operation the magnetic field is given in Fig. \ref{fig:magneticfield}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figurler/magneticfield}
+	\caption{Airgap flux density distribution}
+	\label{fig:magneticfield}
+\end{figure}
+ The induced voltages are given in Fig. \ref{fig:phasevoltages}
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figurler/phasevoltages}
+	\caption{Induced voltages per phase}
+	\label{fig:phasevoltages}
+\end{figure}
+ 
+ The cogging torque is given in Fig. \ref{fig:cogging}.
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figurler/cogging}
+	\caption{Cogging Torque}
+	\label{fig:cogging}
+\end{figure}
+Also a 3d moving gif of the motor is in the Github repository. 
+ \section{Conclusion}
+ In this homework, it was asked to desing various PMSM machine windings where concepts like pitch factor, distribution factor and winding factor was under investigation. The effect of winding design on the harmonic content was also discussed.
 
 \end{document}
